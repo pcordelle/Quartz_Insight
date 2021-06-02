@@ -18,10 +18,8 @@ COPY UserController.java /app/src/UserController.java
 COPY UserService.java /app/src/UserService.java
 COPY pom.xml /app/pom.xml
 
-#setup working directory
+# set working directory
 WORKDIR /app
-
-#install app
 RUN cd /app
 
 # get dependencies
