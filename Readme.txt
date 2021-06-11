@@ -20,4 +20,4 @@ Start the qieam server with docker:
 - docker run -p 4567:4567 -e DB_PASS=<PASSWORD> -e DB_HOST=<HOST_IP> qieam
 
 Test:
-- curl -X GET http://192.168.99.100:4567/api/users
+- curl -X GET http://<DOCKER_IP>:4567/api/users
